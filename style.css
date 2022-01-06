@@ -2,19 +2,17 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 50px;
-}
 .orange-color{
     color: orange;
 }
-section{
+.flex-section{
     display: flex;
 }
 .half-width{
     width:50% ;
+    
 }
-.half-width img{
+.stay-img{
     width:70%;
     margin-left: 60px;
     
@@ -29,11 +27,12 @@ section{
 }
 .all-space{
     padding-left: 15px;
+    font-size: 50px;
 }
 .stay-width{
     margin-top: 130px;
 }
-.all-btn{
+.stay-btn{
     background-color: rgb(255, 70, 101);
     color: white;
     padding: 8px 16px;
@@ -42,4 +41,129 @@ section{
     margin-left: 80px;
     
 
+}
+
+.mission-container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mission-prt{
+    color: rgb(3, 3, 58);
+    text-align: center;
+    font-size: 40px;
+
+}
+.mission-prt span{
+    color: orange;
+}
+.mission-area{
+   display: inline-flex;
+   
+}
+.mission-img{
+    width: 80px;
+}
+.mission-one{
+  
+    background-color: rgba(199, 239, 255, 0.758);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 10px rgb(255, 255, 255);
+
+}
+.mission-two{
+   
+    background-color: rgba(255, 242, 130, 0.758);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 10px rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+
+}
+.mission-three{
+  
+    background-color: rgba(252, 199, 255, 0.758);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 10px rgb(255, 255, 255);
+}
+
+.develop-img{
+    width: 60%;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+.develop-text{
+    margin-top: 60px;
+    margin-right: 150px;
+}
+.develop-btn{
+    background-color: rgb(255, 70, 101);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+.global-img{
+    width: 70%;
+   margin-left: 90px;
+    margin-top: 70px;
+}
+.global-text{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.global-text h1{
+    font-weight: 900;
+}
+.global-btn{
+    background-color: rgb(255, 70, 101);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+.vaccine-img{
+    width: 60%;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+.vaccine-text{
+    margin-top: 60px;
+   margin-right: 50px;
+   margin-left: 60px;
+}
+.vaccine-text h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.vaccine-btn{
+    background-color: rgb(255, 70, 101);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+.footer-bg{
+    background-color:rgb(0, 0, 14);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.f-clr{
+    color: white;
+   
+}
+.f-clr span{
+    color: orange;
+}
+.last-text{
+    color: rgb(136, 144, 144);
 }
